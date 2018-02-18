@@ -1,0 +1,194 @@
+.ceciis-header{ /* header s logotipima */
+    padding: 10px 0 10px 0;
+}
+div.c-wrapper{ /* carousel wraper*/
+    width: 80%; /* for example */
+    margin: auto;
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+    width: auto; /* use this, or not */
+    height: 250px;
+    margin: auto;
+}
+#middle{
+    padding: 30px 0 40px 0;
+}
+img#foi-logo {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    padding-right: 20px;
+}
+img#ceciis-logo {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+}
+/*.dropdown:hover .dropdown-menu {
+    display: block;
+}*/
+.dropdown .dropdown-toggle {
+    font-size: 12pt;
+}
+
+/*pocetak modificiranja navbara*/
+.navbar-default {
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;  /*Sets the text hover color on navbar*/
+    background: rgb(170, 14,55);
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: rgb(211, 17,69);
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar .nav > li.dropdown.open > .dropdown-toggle,
+.navbar .nav > li.dropdown.active > .dropdown-toggle,
+.navbar .nav > li.dropdown.open.active > .dropdown-toggle{
+    color: #fff;
+    background: rgb(170, 14,55);
+}
+.navbar-default {
+    background-color: rgb(211, 17,69);
+    border-color: rgb(211, 17,69);
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+   color: #fff;
+   text-decoration: none;
+   background-color: rgb(211, 17,69);  /*change color of links in drop down here*/
+   }
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #fff; /*Change rollover cell color here*/
+  }
+ .navbar-default .navbar-nav > li > a {
+   color: #fff; /* Change active text color here*/
+ }
+ .navbar-default .navbar-brand {
+     color: #fff;
+ }
+ @media only screen and (min-width : 767px) {
+    .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+}
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+  background-color:#ddd;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: rgb(211, 17,69);
+}
+/*.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}*/
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(211, 17,69);
+  outline: 0;
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: rgb(170, 14,55);
+  }
+  }
+ 
+ /*zavrsetak*/
+ 
+.page-header h3{
+    padding-top: 0;
+}
+.col-md-4 h2 {
+    color: rgb(211, 17,69);
+}
+h2 {
+    color: rgb(211, 17,69);
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+}
+footer li{
+    float:left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+footer a{
+    color: #fff;
+}
+footer p{
+    float:right;
+}
+
+/* bootstrap 3 helpers */
+.navbar-form input, .form-inline input {
+	width:auto;
+}
+
+.ceciis-header .col-sm-12 img {
+    background-position: center;
+}
+
+#forma {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ceciis-cover{ 
+    border: 1px solid black;
+    margin-bottom: 20px;
+ }
+ 
+#archive p{
+    font-size: 8pt;
+    line-height: 1.1;
+}
+#middle h1,h2 {
+    color: rgb(211, 17,69);
+}
+.brojke{
+    font-size: 18pt;
+    color: rgb(211, 17,69);
+    font-weight: bold;
+}
+
+.uni_slike img{
+    height: auto;
+    width: auto;
+    max-width: 500px;
+}
+
+.photos_slike img{
+height: auto;
+    width: auto;
+    max-width: 300px;
+}
